@@ -1,5 +1,10 @@
-h1{
+*{
+    background-color: bisque;
+}
+h1::first-letter{
+    font-size: 2rem;
     color: blueviolet;
+    
 } 
 
 *{
@@ -14,6 +19,8 @@ h1{
 }
 .class2{
     color: darkred;
+    background-color: bisque;
+    
 }
 div{
     border-width: 20px;
