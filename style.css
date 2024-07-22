@@ -1,0 +1,31 @@
+h1{
+    color: blueviolet;
+} 
+
+*{
+    color: yellow;
+}
+
+.class1{
+    color: chartreuse;
+}
+#id23{
+    color: red;
+}
+.class2{
+    color: darkred;
+}
+div{
+    border-width: 20px;
+    border-color: black;
+}
+h3{
+    border-color: blue;
+    border-width: 10px;
+    border-style:inset;
+    border-top-right-radius: 20px;
+    border-top-color: brown;
+    border-bottom-right-radius: 20px;
+    border-top: 20px;
+}
+
