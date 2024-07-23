@@ -23,7 +23,11 @@ h1::first-letter{
     
 }
 div{
-    border-width: 20px;
+    /* border: 2px solid black; */
+    /* border-width: 20px;
+    border-color: black; */
+    border-style: dashed;
+    border-width: 10px;
     border-color: black;
 }
 h3{
