@@ -1,4 +1,9 @@
-*{
+:root{
+    --mycolor1:lightgreen;
+    --mycolor2:yellow;
+}
+
+/* *{
     background-color: bisque;
 }
 h1::first-letter{
@@ -23,11 +28,8 @@ h1::first-letter{
     
 }
 div{
-    /* border: 2px solid black; */
-    /* border-width: 20px;
-    border-color: black; */
-    border-style: dashed;
-    border-width: 10px;
+    border: 2px;
+    border-width: 20px;
     border-color: black;
 }
 h3{
@@ -39,4 +41,161 @@ h3{
     border-bottom-right-radius: 20px;
     border-top: 20px;
 }
+ */
 
+ .for_div_style{
+    /* background: linear-gradient(red,blue, yellow); */
+    /* background-color: aqua;
+    background-image: url('image1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-clip: content-box; */
+    /* background: radial-gradient(rectangle, red 40%, green 30%, blue 20%); */
+
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid black;
+    height: 50vh;
+    color: white;
+ }
+
+ .child_class{
+    border: 2px solid green;
+    background-color: initial;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 14%;
+    cursor: alias;
+ }
+.cursor{
+    cursor: alias;
+}
+button{
+    cursor: progress;
+}
+#customername{
+    cursor: text;
+}
+
+.myclass{
+    background-color: var(--mycolor2);
+}
+.myclass2{
+    background-color: red;
+    color: var(--mycolor2);
+    width: calc(80%);
+    border: 2px solid rgb(17, 0, 255);
+}
+
+.secondDiv{
+    width: calc(70%);
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+}
+#calc{
+    background-color: tomato;
+    border: 2px dotted yellow;
+    width: calc(100%);
+
+}
+#ca{
+    background-color: aquamarine;
+    border: 2px solid red;
+    width: calc(50%);
+    
+}
+
+/* media screen and print screen */
+.mynewdiv{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 26px;
+}
+
+h2{
+    visibility: hidden;
+}
+#mynewimage{
+    visibility: hidden;
+}
+@media print{
+    h1{
+        visibility: hidden;
+    }
+    h2{
+        visibility: visible;
+    }
+    #mynewimage{
+        visibility: visible;
+    }
+}
+
+@media screen{
+    h2{
+        visibility: visible;
+    }
+}
+table{
+    border: 2px solid black;
+    background-image: url('linechart.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 180px;
+    
+}
+.for_border-style{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 6px;
+}
+.for_caption{
+    position: relative;
+    writing-mode: sideways-lr;
+}
+.form{
+    display: inline-block;
+    margin-left: 70%;
+    padding: 2%;
+    border: 2px solid black;
+    background-color: rgba(137, 43, 226, 0.295);
+    border-radius: 10%;
+    
+}
+
+/* .form input{
+    border: none;
+    padding: 5%;
+} */
+
+/* footer{
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0.295);
+    
+} */
+
+.regis{
+    margin-left: 0%;
+    font-size: 2rem;
+    font-family: cursive;
+    font-style: italic;
+}
+/* .datatable{
+    display: inline-block;
+    margin-inline-start: 50%;
+
+} */
+/* fieldset{
+    display: inline-block;
+    margin-left: 80%;
+    
+} */
+ .option{
+    font-weight: bold;
+ }
+ .Payment{
+    font-weight: bold;
+ }

@@ -5,19 +5,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git learning</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .class{
+            width: auto;
+            height: auto;
+            border: 2px solid black;
+            padding: 10px;
+            background-color: beige;
+        }
+        .sub_class{
+            width: 50%;
+            height: 50%;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .font_size{
+            font-size: 6rem;
+        }
+        .font_size_2{
+            font-size: 2rem;
+        }
+        .for_styling{
+            background-color: green !important;
+        }
+    </style>
 </head>
 <body>
-<div>
+
     <!-- <style>
         h1{
             color: green;
         }
     </style> -->
-    <h1>This is first git file</h1>
+    <!-- <h1>This is first git file</h1>
     <h3 class="class1" id="id23">this is second command </h3>
     <h2 id="id23">changes</h2>
     <p class="class2">Lorem, ipsum dolor.</p>
-</div>    
+</div>     -->
+
+<!-- units in css -->
+ <!-- <div class="class">
+    <div class="sub_class">value1</div>
+ </div> -->
+<!-- 
+ <div class="font_size">
+    <h1 class="font_size_2">hello world</h1>
+ </div> -->
+
+<div style="background-color: red; border: 2px solid black; padding: 10px;" class="for_styling"></div>
+
+<div class="for_div_style">
+    this is parent
+    <div class="child_class">
+        this is child
+    </div>
+</div>
+<span class="cursor">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, minima.</span>
+<button>click here</button>
+<textarea name="name" id="customername" placeholder="Enter your Name" height="auto" width="auto"></textarea>
+
+
+<div class="myclass">mydiv1</div>
+<div class="myclass">mydiv1</div>
+<div class="myclass">mydiv1</div>
+<div class="myclass">mydiv1</div>
+<div class="myclass">mydiv1</div>
+
+
+<div class="myclass2">mydiv2</div>
+<div class="myclass2">mydiv2</div>
+<div class="myclass2">mydiv2</div>
+<div class="myclass2">mydiv2</div>
+<div class="myclass2">mydiv2</div>
+
+<div class="secondDiv">this is second div</div>
+<div id="calc"> calculation</div>
+<span id="ca">calculation function</span>
+
+<p class="myclass2">variables practice</p>
+
+
+<div class="mynewdiv">
+    <h1>hello world</h1>
+    <h2>you know i want to hide this h2 tag from you</h2>
+    <img src="image1.jpg" width="80px" height="80px" id="mynewimage" alt="">
+</div>
+
+<table>
+    <caption class="for_caption">New data</caption>
+    <thead>
+        <tr>
+            <th class="for_border-style">rrr</th>
+            <th class="for_border-style">ttt</th>
+            <th class="for_border-style">yyy</th>
+            <th class="for_border-style">uuu</th>
+            <th class="for_border-style">ooo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="for_border-style">1</td>
+            <td class="for_border-style">2</td>
+            <td class="for_border-style">4</td>
+            <td class="for_border-style" colspan="2">5</td>
+            <td class="for_border-style">3</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- <fieldset> -->
+    <div class="form">
+    <legend class="regis">Registration Form</legend>
+    
+        <form action="#">
+            <label for="name">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+            <input type="text" name="name" id=""><br><br>
+            <label for="sur">Surname&nbsp;</label>
+            <input type="text" name="sur" id=""><br><br>
+            <label for="email">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" name="email" id=""><br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id=""><br><br>
+            
+            
+            <!-- <label for="course">Courses option</label> -->
+            <legend class="option">Courses option</legend><br>
+            <input type="checkbox" name="course" id="" value="Front End">
+            <label for="course">Front End</label><br>
+            <input type="checkbox" name="course" id="" value="Back End">
+            <label for="course">Back End</label><br>
+            <input type="checkbox" name="course" id="" value="Full Stack">
+            <label for="course">Full Stack</label><br><br>
+
+            <legend class="Payment">Payment options</legend>
+            <label>
+            <input type="radio" name="EMI" id="" value="EMI" onclick="singl">EMI
+            </label>    
+            <label>
+             <input type="radio" name="Full" id="" value="Full">Full Payment   
+            </label>
+
+
+        </form>
+    </div>
+
+<!-- </fieldset> -->
+
 
 
 </body>
