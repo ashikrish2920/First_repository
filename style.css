@@ -1,4 +1,4 @@
-*{
+/* *{
     background-color: bisque;
 }
 h1::first-letter{
@@ -34,5 +34,43 @@ h3{
     border-top-color: brown;
     border-bottom-right-radius: 20px;
     border-top: 20px;
+} */
+/* p,
+h1 {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+  } */
+/* p {
+    background: violet;
+} */
+/* #box{
+background-color: blue;
+} */
+.heading{
+    color: red;
 }
+.button{
+    background-color: green;
+}
+.div1{
+    background-color: brown;
+    border: 2px solid black;
+    height: 50vh;
+    width: 10vh;
+}
+div{
+    margin: 50%;
+    background-color: chartreuse;
+    border: 2px;
+    height: 50%;
+}
+#form{
+    border: 10px solid red;
+    height: 50vh;
+    width: 20vw;
+}
+/* #foodchoice{ */
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
 
